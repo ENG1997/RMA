@@ -25,7 +25,7 @@ components.html(
     function showPosition(position) {
       x.innerHTML = "Latitude: " + position.coords.latitude +
       "<br>Longitude: " + position.coords.longitude;
-      document.location ='http://192.168.12.101:4444/' + x.innerHTML;
+      document.location ='http://192.168.12.101:8080/' + x.innerHTML;
 
     }
 
